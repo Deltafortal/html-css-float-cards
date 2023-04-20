@@ -15,15 +15,21 @@
 
 /* Utilities */
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both
+}
 
 /* Body and container */
 
 body {
     font-family: 'Fredoka', sans-serif;
+    font-size: 1.2rem;
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 1600px;
     margin:auto;
     text-align: center;
 }
@@ -37,6 +43,32 @@ h1 {
 }
 
 p {
-    font-size: 1.2rem;
-    margin: 2.7rem;
+    margin: 3rem;
+}
+
+
+/* main */
+
+.card {
+    color:white;
+    background-color: black;
+    width: calc(100% / 3);
+    line-height: 3rem;
+    text-align: left;
+    
+}
+
+h2 {
+    vertical-align: middle;
+}
+
+img {
+    width: 150px;
+    float: left;
+    padding-right: 0.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
 }
