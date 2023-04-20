@@ -31,6 +31,12 @@ body {
 /* Header */
 
 h1 {
-    font-family: 'Fredoka', sans-serif;
+    margin-top: 2rem;
+    font-size: 3rem;
     color: var(--title);
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 2.7rem;
 }
