@@ -6,12 +6,14 @@
     box-sizing: border-box;
 }
 
+
 /* Root */
 
 :root {
     --title-color: #E53170;
     --link-color: #5BB3D6;
 }
+
 
 /* Utilities */
 
@@ -20,6 +22,7 @@
     display: table;
     clear: both
 }
+
 
 /* Body and container */
 
@@ -32,6 +35,7 @@ body {
     max-width: 1600px;
     margin:auto;
 }
+
 
 /* Header */
 
@@ -46,8 +50,9 @@ h1 {
 }
 
 p {
-    margin: 4.5rem;
+    margin: 4.5rem 0;
 }
+
 
 
 /* main */
